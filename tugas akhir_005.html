@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Daftar mahasiswa </title>
+    <link rel="stylesheet" href="tugas akhir.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: #f8f8f8;
+        }
+        .header h1 {
+            margin: 0;
+            text-align: center;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            background-color: #f0f0f0;
+        }
+        .text {
+            flex: 1;
+            padding-right: 20px;
+            align-items: center;
+            text-align: center;
+        }
+        .text h2 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .text p {
+            margin: 5px 0 10px;
+            font-size: 1.0em;
+        }
+        .iklan {
+            flex: 1;
+
+        }
+        .iklan img {
+            width: 20%;
+            height: autosize;
+            border-radius: 5px;
+            left: 950px;
+            position: relative;
+
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+
+        table {
+            width: 40%;
+            margin: 1px auto;
+            background-color: #ffffff;
+            color: #000000;
+            border-collapse: collapse;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            position: sticky;
+        }
+
+        table th, table td {
+            padding: 15px;
+            border: 1px solid #000;
+        }
+
+        table th {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        ul {
+        list-style-type: none;
+        margin: 1,5rem;
+        padding: 0px;
+        width: 15%;
+        background-color: #f1f1f1;
+        position: relative;
+        height: 10%;
+        overflow: auto;
+        }
+
+        li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+        }
+
+        li a.active {
+        background-color: #04AA6D;
+        color: white;
+        }
+
+        li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- kepala -->
+    <header class="header">
+        
+        <h1> Universitas Al-Asyariah mandar </h1>
+
+    </header>
+
+    <!-- Badan -->
+    <div class="content">
+        <div class="text">
+            <h2>daftar mahasiswa</h2>
+            <p> universitas al-asyariah mandar</p>
+        </div>
+    </div>
+
+    <!-- Kotak -->
+    <table>
+        
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Npm</th>
+            <th>jurusan</th>
+            <th>Semester</th>
+        </tr>
+        
+        <tr>
+            <td> 1 </td>
+            <td> Kentung </td>
+            <td> 3846323</td>
+            <td> Teknik informatika </td>
+            <td> 3 </td>
+        </tr>
+
+        <tr>
+            <td> 2 </td>
+            <td> Ical </td>
+            <td> 3846323</td>
+            <td> Teknik informatika </td>
+            <td> 3 </td>
+        </tr>
+
+        <tr>
+            <td> 3 </td>
+            <td> Wahid </td>
+            <td> 3846323</td>
+            <td> Teknik informatika </td>
+            <td> 3 </td>
+        </tr>
+    
+    </table>
+
+    <ul>
+    <nav class="kiri atas">
+        
+        <li><a href="Beranda.html"> Beranda</a></li>
+        <li><a href="Isi.html"> Daftar</a></li>
+        <li><a href="Kontak.html"> Kontak</a></li>
+        <li><a href="Tentang.html"> Tentang</a></li>
+
+    </nav>
+    </ul>
+
+    <div class="iklan">
+        <img src="image/Poster iklan.png" alt="iklan">
+    </div>
+
+
+    <!-- kaki -->
+    <footer>
+        <p>&copy; Liswandi anugerah All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
